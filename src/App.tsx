@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 import { Code, Mail, Phone, Github, Linkedin, ExternalLink, Menu, X, ChevronDown } from 'lucide-react';
 import profilePic from './assets/professional-pic.jpg';
@@ -102,7 +102,7 @@ export default function Portfolio() {
 
 
 
-  const scrollToSection = (id) => {
+ const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
