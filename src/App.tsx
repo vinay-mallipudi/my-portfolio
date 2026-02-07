@@ -71,7 +71,7 @@ export default function Portfolio() {
       tech: ['Laravel', 'PHP', 'JavaScript'],
       color: 'from-purple-500 to-pink-500',
       image: pic2,
-      url: 'https://app.esteticanow.com'
+      url: 'https://accuwisetech.com/'
     },
     // {
     //   title: 'E-Commerce Platform',
@@ -87,7 +87,7 @@ export default function Portfolio() {
       tech: ['Yii2', 'Tailwind CSS', 'REST API'],
       color: 'from-teal-500 to-lime-500',
       image: pic3,
-      url: 'https://twgpost.in'
+      url: 'https://app.esteticanow.com'
     },
     {
       title: 'Estetica Vendor CRM Application (Yii2 Framework)',
@@ -96,8 +96,24 @@ export default function Portfolio() {
       tech: ['Yii2', 'MySQL', 'jQuery'],
       color: 'from-indigo-500 to-blue-600',
       image: pic4,
-      url: 'https://app.esteticanow.com'
+      url: 'https://business-partner.esteticanow.com/'
+    },
+    {
+      title: 'Customer Support Ticket Management System',
+      description: 'Developed a customer support ticket management system where backend APIs were built using Laravel and consumed by an existing Yii2 application. The system enables seamless ticket creation, updates, and tracking across platforms with centralized data management.',
+      KeyContributions:
+        'Designed and implemented RESTful APIs in Laravel for ticket creation, updates, and status management.' +
+        'Consumed Laravel APIs within a Yii2 application to exchange customer support data securely.' +
+        'Stored all ticket-related data in the Laravel backend and database.' +
+        'Built admin and customer panels in Laravel to display, manage, and track ticket information.' +
+        'Implemented role-based access control for admin and customer users.' +
+        'Optimized API responses and database queries to ensure smooth cross-framework communication.',
+      tech: ['Laravel', 'Yii2', 'MySQL', 'REST API'],
+      color: 'from-emerald-500 to-teal-600',
+      image: pic4,
+      url: 'https://customer-support.esteticanow.com/'
     }
+
   ];
 
 
